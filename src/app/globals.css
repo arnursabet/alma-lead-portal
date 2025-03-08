@@ -1,6 +1,45 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --_alma-variables---colors--black: #000;
+  --_alma-variables---colors--cream: #fff7ee;
+  --_alma-variables---colors--grey-4: #6b6b72;
+  --_alma-variables---padding--card-padding: 3rem;
+  --_alma-variables---spacing--base: 1rem;
+  --_alma-variables---colors--apple: #e0f0bc;
+  --_alma-variables---colors--moss: #2f5b50;
+  --_alma-variables---colors--white: white;
+  --_alma-variables---colors--sun: #f9d783;
+  --_alma-variables---colors--sun-light: #fcebc1;
+  --_alma-variables---colors--grey-3: #e7e8e3;
+  --_alma-variables---colors--grey-2: #f3f3f3;
+  --_alma-variables---colors--white-80: #fffc;
+  --_alma-variables---radius--small: .5rem;
+  --_alma-variables---padding--horizontal: 8rem;
+  --_alma-variables---padding--hero-inner: 5rem;
+  --_alma-variables---colors--grass: #76c08d;
+  --_alma-variables---colors--honey: #f2ba77;
+  --_alma-variables---spacing--large: 3rem;
+  --_alma-variables---spacing--medium: 2rem;
+  --_alma-variables---spacing--xlarge: 4rem;
+  --_alma-variables---radius--base: 1rem;
+  --_alma-variables---spacing--2xlarge: 6rem;
+  --_alma-variables---spacing--small: .5rem;
+  --_alma-variables---spacing--xsmall: .25rem;
+  --_alma-variables---radius--medium: 1.5rem;
+  --_alma-variables---colors--apple-light: #f3f9e4;
+  --_alma-variables---colors--black-80: #000c;
+  --_alma-variables---padding--vertical: 6rem;
+  --_alma-variables---colors--moss-20: #2f5b5033;
+  --_alma-variables---text-size--heading-huge: 3.5rem;
+  --_alma-variables---radius--xsmall: .25rem;
+  --_alma-variables---colors--white-20: #fff3;
+  --_alma-variables---colors--moss-80: #2f5b50cc;
+  --_alma-variables---colors--black-60: #0009;
+  --_alma-variables---colors--black-20: #0003;
+  --_alma-variables---colors--honey-light: #f9ddbb;
+  --_alma-variables---colors--grass-light: #e4f2e8;
+  --_alma-variables---colors--cloud: #f0f2ef;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,8 +56,8 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--_alma-variables---colors--black);
+  background: var(--_alma-variables---colors--white);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,8 +74,8 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }
